@@ -1,5 +1,6 @@
-// @TODO Arrow function
-function App() {
+import { FC } from 'react';
+
+const App: FC = () => {
   return (
     <div>
         <h1>TODO Web App</h1>

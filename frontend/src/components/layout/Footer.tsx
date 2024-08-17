@@ -1,8 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="w-full flex flex-col sm:flex-row justify-center items-center h-20 p-4 bg-red-600 text-white text-center">
-            <div>TODO</div>
-            <div>@2024 Mikołaj Żarnowski</div>
+        <footer className="w-full h-8 px-4 py-2 bg-red-600 text-white text-center text-xs">
+            TODO @2024 Mikołaj Żarnowski
         </footer>
     );
 };

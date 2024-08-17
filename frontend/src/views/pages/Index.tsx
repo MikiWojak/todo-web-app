@@ -1,11 +1,7 @@
-import DefaultLayout from '../layouts/DefaultLayout.tsx';
-
 const Index = () => {
     return (
         <div>
-            <DefaultLayout>
-                <h1>Welcome to TODO Web App</h1>
-            </DefaultLayout>
+            <h1>Welcome to TODO Web App</h1>
         </div>
     );
 };

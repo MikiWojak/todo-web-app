@@ -1,4 +1,4 @@
-const Todos = () => {
+const Profile = () => {
     // @TODO Logic
 
     return (
@@ -8,4 +8,4 @@ const Todos = () => {
     );
 };
 
-export default Todos;
+export default Profile;

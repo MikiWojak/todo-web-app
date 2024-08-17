@@ -1,7 +1,7 @@
 const Todos = () => {
     return (
         <>
-            <h1>Todos</h1>
+            <h1>List of things to be done</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ante id leo dapibus commodo. Nulla mauris arcu, lobortis id sollicitudin in, lacinia et nulla. Maecenas pretium libero mi, a pharetra lectus vestibulum ac. Donec ut tortor eu massa volutpat faucibus vitae id metus. Nullam ut accumsan lorem. Nulla viverra arcu a rutrum suscipit. Sed sit amet nisi a turpis auctor fermentum. Pellentesque condimentum lorem purus, cursus rutrum risus egestas ut. Pellentesque tincidunt venenatis libero.</p>
 

@@ -11,12 +11,8 @@ const Header = () => {
                 <h1 className="text-2xl">TODO</h1>
             </div>
 
-            <div className="flex items-center gap-2">
-                <div>Todos</div>
-
-                <div>
-                    <ArrowRightEndOnRectangleIcon className="size-6" />
-                </div>
+            <div>
+                <ArrowRightEndOnRectangleIcon className="size-6" />
             </div>
         </header>
     );

@@ -23,4 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+# NPM
 package-lock.json
+
+# Vite
+.vite

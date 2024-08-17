@@ -5,7 +5,7 @@ import {
 
 const Header = () => {
     return (
-        <div className="flex justify-between w-full h-16 p-4 bg-red-600 text-white">
+        <header className="flex justify-between w-full h-16 p-4 bg-red-600 text-white">
             <div className="flex items-center gap-2 font-bold">
                 <CheckCircleIcon className="size-6" />
                 <h1 className="text-2xl">TODO</h1>
@@ -18,7 +18,7 @@ const Header = () => {
                     <ArrowRightEndOnRectangleIcon className="size-6" />
                 </div>
             </div>
-        </div>
+        </header>
     );
 };
 

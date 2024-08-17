@@ -8,10 +8,9 @@ const Layout = () => {
         <div>
             <Header />
 
-            {/*@TODO min height */}
-            <div className="h-screen m-4">
+            <main className="w-full min-h-[calc(100vh-144px)] p-4">
                 <Outlet />
-            </div>
+            </main>
 
             <Footer />
         </div>

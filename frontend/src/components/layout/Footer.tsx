@@ -1,10 +1,9 @@
 const Footer = () => {
     return (
-        // @TODO Tablet - text in one line
-        <div className="w-full h-20 p-4 bg-red-600 text-white text-center">
-            <p>TODO Web App</p>
-            <p>@2024 Mikołaj Żarnowsk</p>
-        </div>
+        <footer className="w-full flex flex-col sm:flex-row justify-center items-center h-20 p-4 bg-red-600 text-white text-center">
+            <div>TODO Web App</div>
+            <div>@2024 Mikołaj Żarnowski</div>
+        </footer>
     );
 };
 

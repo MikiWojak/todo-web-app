@@ -8,7 +8,10 @@ const Layout = () => {
         <div>
             <Header />
 
-            <Outlet />
+            {/*@TODO min height */}
+            <div className="h-screen m-4">
+                <Outlet />
+            </div>
 
             <Footer />
         </div>

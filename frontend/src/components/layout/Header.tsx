@@ -1,16 +1,22 @@
-import { ArrowRightEndOnRectangleIcon } from '@heroicons/react/24/solid';
+import {
+    CheckCircleIcon,
+    ArrowRightEndOnRectangleIcon
+} from '@heroicons/react/24/solid';
 
 const Header = () => {
     return (
-        <div className="flex w-100 h-16 p-4 bg-red-600 text-white">
-            <h1>TODO</h1>
-
-            <div>
-                Todos
+        <div className="flex justify-between w-full h-16 p-4 bg-red-600 text-white">
+            <div className="flex items-center gap-2 font-bold">
+                <CheckCircleIcon className="size-6" />
+                <h1 className="text-2xl">TODO</h1>
             </div>
 
-            <div>
-                <ArrowRightEndOnRectangleIcon className="size-6" />
+            <div className="flex items-center gap-2">
+                <div>Todos</div>
+
+                <div>
+                    <ArrowRightEndOnRectangleIcon className="size-6" />
+                </div>
             </div>
         </div>
     );

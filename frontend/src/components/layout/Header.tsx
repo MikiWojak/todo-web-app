@@ -11,7 +11,7 @@ const Header = () => {
                 <h1 className="text-2xl">TODO</h1>
             </div>
 
-            <div>
+            <div className="flex items-center">
                 <ArrowRightEndOnRectangleIcon className="size-6" />
             </div>
         </header>

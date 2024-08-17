@@ -1,9 +1,15 @@
-import { FC } from 'react';
+import Index from './views/pages/Index';
+import Login from './views/pages/Login';
+import Todos from './views/pages/Todos';
 
-const App: FC = () => {
+const App = () => {
     return (
-        <div className="w-screen h-screen bg-slate-800 text-white font-roboto">
-            <h1>TODO Web App</h1>
+        <div>
+            <Index />
+
+            <Login />
+
+            <Todos />
         </div>
     );
 };

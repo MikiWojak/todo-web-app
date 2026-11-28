@@ -46,6 +46,7 @@ namespace backend_dotnet.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTodoItem(long id, TodoItem todoItem)
         {
+            // @TODO Consider deleting this check
             if (id != todoItem.Id)
             {
                 return BadRequest();
@@ -80,7 +81,7 @@ namespace backend_dotnet.Controllers
             _context.TodoItems.Add(todoItem);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
+            return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, todoItem);
         }
 
         // DELETE: api/TodoItems/5

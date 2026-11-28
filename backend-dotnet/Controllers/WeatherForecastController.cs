@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace backend_dotnet.Controllers;
 
+// @TODO Delete
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
